@@ -1,16 +1,16 @@
 <div class="row">
     <div class="col-xs-12">
-        <img src="" alt="">
+        <img src="{{recipe.imagePath}}" alt="" style="height: 100px;">
     </div>
 </div>
 <div class="row">
     <div class="col-xs-12">
-        <h1>Recipe name</h1>
+        <h1>{{recipe.name}}</h1>
     </div>
 </div>
 <div class="row">
     <div class="col-xs-12">
-        <div class="btn-group" role="group">
+        <div class="btn-group" role="group" appDropdown>
             <button id="btnGroupDrop1" type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown"
                 aria-expanded="false">
                 Manage recipe
@@ -25,11 +25,11 @@
 </div>
 <div class="row">
     <div class="col-xs-12">
-        <h1>Description name</h1>
+        <p>{{recipe.description}}</p>
     </div>
 </div>
 <div class="row">
     <div class="col-xs-12">
-        <h1>Ingredients</h1>
+        <p>Ingredients</p>
     </div>
 </div>
