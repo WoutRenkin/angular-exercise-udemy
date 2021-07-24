@@ -7,11 +7,11 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link" (click)="onSelect('recipe')" href="#">Recipes</a>
+                <li class="nav-item " >
+                    <a class="nav-link" routerLinkActive="active" routerLink="/recipes">Recipes</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" (click)="onSelect('shoppingList')"  href="#">Shopping List</a>
+                <li class="nav-item" routerLinkActive="active">
+                    <a class="nav-link" routerLinkActive="active" routerLink="shopping-list">Shopping List</a>
                 </li>
             </ul>
             <ul class="navbar-nav ms-auto">
@@ -21,9 +21,9 @@
                         Manage
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <li><a class="dropdown-item" href="#">Action</a></li>
-                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        <li><a style="cursor: pointer" class="dropdown-item" >Action</a></li>
+                        <li><a style="cursor: pointer" class="dropdown-item">Another action</a></li>
+                        <li><a style="cursor: pointer" class="dropdown-item">Something else here</a></li>
                     </div>
                   </li>
             </ul>
